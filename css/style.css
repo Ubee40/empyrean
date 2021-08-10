@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Navbar ===== */
+
+.btn-style {
+    border: 1px solid #1B2134;
+}
+
+.btn-style:hover {
+    background-color: #1B2134;
+    color: #fff;
+}

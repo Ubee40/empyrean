@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Aara; src:  url("Aara-Bold.otf"); src: url("Aara-Regular.otf")
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100vw;
+    height: 50vh;
+    background: url(../img/masculine_perfume.jpg);
+    background-size: cover;
+    font-family: "Aara-Bold";
+    color: #BCBEC0 ;
+    /*color: #E0A233 ;*/
+}
+
+.background>h1 {
+    padding-top: 100px;
+    font-size: 65px;
+}
+
+.Filter {
+    font-family: "Aara-Regular";
+    color: #1B2134;
+}
+
+.heading-1{
+  position:relative;
+  text-align: center;
+  color: #1B2134;
+  font-family: "Aara-Bold";
+
+}
+
+.heading-1:before {
+  content: "";
+  display: block;
+  border-top: solid 2px #000000;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  z-index: 0;
+}
+.heading-1 span {
+  background: #fff;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.mainT-bg {
+    font-size: 1.5em;
+    font-family:  "Aara-Bold";
+    background-color: #1B2134;
+    color: #fff;
+}
+
+.mainT {
+    font-family:  "Aara-Bold";
+    margin-bottom: 0;
+}
+
+.submainT {
+    font-family:"Aara-Regular";
+}
+
+.page-link {
+    border-radius: 50%;
+    border: 1px solid #1B2134 !important;
+    color: #1B2134;
+    margin: 10px;
+}
+
+.page-item.active .page-link {
+    background-color: #1B2134;
+}
+
+ .pagination-sm .page-item:last-child .page-link {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+ .first-link {
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+}
+
+body {
+    color: #1B2134;
+}
+
+.i-height {
+    height: 325px;
+}
